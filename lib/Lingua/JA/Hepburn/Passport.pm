@@ -287,7 +287,7 @@ I<$roman> would be all upper case roman letters.
 
 This module doesn't come with I<deromanize> method (yet), which would
 do the Roman to Katakana/Hiragana translation, since I don't think we
-need it. Other modules on CPAN alaredy do the job quite nicely.
+need it. Other modules on CPAN already do the job quite nicely.
 
 =head1 AUTHOR
 
