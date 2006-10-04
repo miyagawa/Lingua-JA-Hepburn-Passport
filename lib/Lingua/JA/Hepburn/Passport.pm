@@ -241,7 +241,7 @@ Lingua::JA::Hepburn::Passport - Hepburn Romanization using Japanese passport rul
   use utf8;
   use Lingua::JA::Hepburn::Passport;
 
-  my $hepburn = Lingua::JA::Hepburne::Passport->new;
+  my $hepburn = Lingua::JA::Hepburn::Passport->new;
   $hepburn->romanize("みやがわ");     # MIYAGAWA
   $hepburn->romanize("おおの");       # ONO
   $hepburn->romanize("かとう");       # KATO
@@ -250,7 +250,7 @@ Lingua::JA::Hepburn::Passport - Hepburn Romanization using Japanese passport rul
   $hepburn->romanize("はっちょう");   # HATCHO
 
   # Indicate long vowels by "h"
-  my $hepburn = Lingua::JA::Hepburne::Passport->new( long_vowels_h => 1 );
+  my $hepburn = Lingua::JA::Hepburn::Passport->new( long_vowels_h => 1 );
   $hepburn->romanize("おおの");       # OHNO
   $hepburn->romanize("かとう");       # KATOH
 
